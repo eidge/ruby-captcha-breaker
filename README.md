@@ -10,6 +10,7 @@ Turns out that Ruby is quite slow, but as so many other interpreted languages, i
 I've choosen a simple catcha used by [NOAA](http://www.noaa.gov/) to protect their service from automated requests. I really like this for meteo forecasts (I'm a paraglider pilot), but the god damn captchas are so annoying!
 
 This is the victim and process of breaking it is quite simple:
+
 ![The captcha](https://raw.githubusercontent.com/eidge/ruby-captcha-breaker/master/noaa_captchas/noaa_captcha_1.gif)
 
 1. First I fill everything that's white with black - this removes the breaks in the letters we're supposed to read.
