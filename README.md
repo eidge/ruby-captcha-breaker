@@ -5,13 +5,13 @@ Ever wondered how to solve a captcha? Do you think **Ruby could do it**?
 
 These were the questions I set out to answer.
 
-Turns out that Ruby is quite slow, but as so many other interpreted languages, it has binds for powerful libraries written in C and the likes. This means you get to enjoy the simplicity of Ruby and the speed of a compiled language for the tasks that matter.
+Turns out that Ruby is quite slow, but as so many other interpreted languages, it is bindable to powerful libraries written in C. This means you get to enjoy the simplicity of Ruby and the speed of a compiled language for the tasks that matter.
 
 I've choosen a simple catcha used by [NOAA](http://www.noaa.gov/) to protect their service from automated requests. I really like this for meteo forecasts (I'm a paraglider pilot), but the god damn captchas are so annoying!
 
 ![The captcha](https://raw.githubusercontent.com/eidge/ruby-captcha-breaker/master/noaa_captchas/noaa_captcha_1.gif)
 
-This is the victim.
+This is the victim and process of breaking it is quite simple:
 
 1. First I fill everything that's white with black - this removes the breaks in the letters we're supposed to read.
 2. Then I turn the image into a binary image (only black and white).
