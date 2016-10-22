@@ -1,7 +1,7 @@
 # Author: Hugo Ribeira
 # 13 Aug 2014
 
-require 'RMagick'
+require 'rmagick'
 require 'rtesseract'
 
 class CaptchaBreaker
